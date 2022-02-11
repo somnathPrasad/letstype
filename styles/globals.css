@@ -8,6 +8,10 @@ input[type="text"]:placeholder-shown,input[type="text"]{
   background-color:rgb(25, 255, 255,.15);
   line-height: 5rem;
 }
+input[type="text"]:placeholder-shown{
+  font-size:1em;
+  color: red;
+}
 input[type="button"]{
   font-family: 'Press Start 2P', cursive;
   padding: 0;

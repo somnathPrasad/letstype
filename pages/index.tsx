@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           className={`${styles.container_background} ${styles.show} ${styles.five}`}
         ></div>
 
-        <div className={`${styles.center_container} py-14 px-28 rounded-3xl`}>
+        <div className={`${styles.center_container} min-w-full py-14 px-28 rounded-3xl`}>
           <h1 className={styles.title}>
             <Typewriter
               options={{
